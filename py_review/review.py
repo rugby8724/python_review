@@ -135,3 +135,60 @@
 # r1, r2 = func(5, 6)
 # print(r1, r2)
 # returns 30 0.8333333333333334
+
+
+##########
+# unpack operator & *args and **kwargs
+# def func(x):
+#     def func2():
+#         print(x)
+#     return func2
+
+
+# x = func(3)
+# x()
+
+# def func(x,y):
+#   print(x, y)
+
+# pairs = [(1,2), (3,4)]
+
+# for pair in pairs:
+#   func(*pair)
+
+
+# def func(*args, **kwargs):
+#   print(args, kwargs)
+
+#########
+# throw/raise exception try
+
+# raise Exception('Bad')
+
+# try:
+#     x = 7/0
+# except Exception as e:
+#     print(e)
+
+##########
+# lamba
+
+# def x(x, y): return x+y
+
+
+# print(x(2, 32))
+
+##########
+# map and filter
+
+# x = [1, 2, 3, 4, 5, 6, 47, 365, 5262, 56, 145, 25, 2]
+
+# mp = map(lambda i: i*2, x)
+# print(list(mp))
+
+# fl = filter(lambda i: i % 2 == 0, x)
+# print(list(fl))
+
+# fstrings
+# tim = 87
+# x = f'hello {6+8}, {tim}'
